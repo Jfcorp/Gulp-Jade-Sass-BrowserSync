@@ -1,0 +1,35 @@
+/*Pallete Color*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans Condensed", sans-serif, helvetica, arial;
+  font-size: 16px;
+  background-color: #eee; }
+
+h1 {
+  font-size: 50px;
+  padding-bottom: 32px; }
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+  .header__container {
+    background-color: #e6e6e6;
+    padding: 32px;
+    border-radius: 20px; }
+  .header__title, .header__text {
+    text-align: center; }
+  .header__link {
+    text-transform: uppercase;
+    color: #008b8b;
+    text-decoration: none; }
+  .header__copyright {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 48px; }
