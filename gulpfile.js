@@ -34,7 +34,7 @@ gulp.task('serve', ['sass', 'jade'], () => {
 			proxy: "http://localhost/Gulp"
 		},
 		startPath: "./site/"
-		//port: 8080
+		port: 8080
 	});
 
 	gulp.watch('./sass/**/*.scss', ['sass']), reload;
