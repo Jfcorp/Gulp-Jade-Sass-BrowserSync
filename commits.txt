@@ -1,0 +1,5 @@
+commit 8dd4c0ebdcfadbf71fb8ccb367f135fbf437c0b3
+Author: Jonathan Manzano <jfcorp.jm@gmail.com>
+Date:   Sat Nov 5 00:40:19 2016 -0500
+
+    version 1.0 de archivo gulp para automatizar tareas con jade sass y browser-sync

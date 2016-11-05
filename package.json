@@ -1,14 +1,27 @@
 {
-  "name": "Gulp",
+  "name": "starter-Gulp-project-sass-jade",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyecto gulp para inicar tareas con Sass Jade y BrowserSync",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jfcorp/Gulp-Jade-Sass-BrowserSync"
+  },
+  "keywords": [
+    "gulp",
+    "jade",
+    "sass",
+    "browserSync",
+    "autoprefixer"
+  ],
+  "author": "Jonathan Manzano <jfcorp.jm@gmail.com>",
+  "license": "MIT",
+  "bugs":{
+    "url": "https://github.com/Jfcorp/Gulp-Jade-Sass-BrowserSync/issues"
+  },
   "devDependencies": {
     "browser-sync": "^2.17.5",
     "gulp": "^3.9.1",
@@ -17,3 +30,4 @@
     "gulp-sass": "^2.3.2"
   }
 }
+
