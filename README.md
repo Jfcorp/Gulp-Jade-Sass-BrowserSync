@@ -2,7 +2,6 @@
 ======================================
 Proyecto gulp para inicar tareas con Sass Jade y BrowserSync
 
-<<<<<<< HEAD
 Incluye las siguientes herramientas, tareas y flujo de trabajo:
 
 - [Gulp-Sass](https://www.npmjs.com/package/gulp-sass/) con [gulp-autoprefixer](https://www.npmjs.com/package/gulp-autoprefixer/)
