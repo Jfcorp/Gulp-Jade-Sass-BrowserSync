@@ -31,14 +31,5 @@ Para ejecutar la versión de gulp instalada localmente al proyecto, en la raíz 
 
 #### Nota
 
-Este entorno de trabajo fue hecho bajo windows, ademas de eso trabaja con un proxy para un servidor local. Si no quiere trabajar con un servidor local descomentar las lineas **29 a 32** y comentar **33 a 37**
-=======
-herramientas y flujo de trabajo:
+Este entorno de trabajo fue hecho bajo windows, ademas de eso trabaja con un proxy para un servidor local. Si no quiere trabajar con un servidor local descomentar las lineas **29 a 32**y comentar **33 a 37**
 
-- [Sass](http://sass-lang.com) com [gulp-autoprefixer](http://gulpjs.com)
-- [Jade](pug-lang.com)
-- [BrowserSync](http://browsersync.com)
-
-
-## instalación
->>>>>>> 50662626d69ec94ca90c8e40257e351123225513
