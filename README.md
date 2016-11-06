@@ -31,4 +31,4 @@ Para ejecutar la versión de gulp instalada localmente al proyecto, en la raíz 
 
 #### Nota
 
-Este entorno de trabajo trabaja bajo windows, ademas de eso trabaja con un proxy para trabajar con servidor local. Si no quiere trabajar con un servidor local descomentar las lineas **29 a 32** y comentar **33 a 37**
+Este entorno de trabajo fue hecho bajo windows, ademas de eso trabaja con un proxy para un servidor local. Si no quiere trabajar con un servidor local descomentar las lineas **29 a 32** y comentar **33 a 37**
