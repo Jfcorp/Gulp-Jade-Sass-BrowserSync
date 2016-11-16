@@ -22,7 +22,7 @@ gulp.task("sass", () => {
 gulp.task('jade', () => {
 	gulp.src('./pug/*.jade', ['jade'])
 		.pipe(jade({
-			//pretty: true
+			pretty: true
 		}))
 		.pipe(gulp.dest('./site/'))
 		.pipe(reload({stream: true}))
