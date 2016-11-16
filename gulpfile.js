@@ -9,7 +9,12 @@ const gulp 					= require("gulp"),
 
 gulp.task("sass", () => {
 	return gulp.src('./sass/**/*.scss', ['sass'])
-		.pipe(sass().on('error', sass.logError))
+		.pipe(sass({
+			outputStyle: 'compressed'}).on('error', sass.logError)
+		)
+		.pipe(autoprefixer({
+			 browsers: ['last 2 versions']
+		}))
 		.pipe(gulp.dest('./site/assets/css/'))
 		.pipe(reload({stream: true}));
 });
@@ -26,15 +31,15 @@ gulp.task('jade', () => {
 
 gulp.task('serve', ['sass', 'jade'], () => {
 	browserSync.init({
-		//server: {
-			//baseDir: "./"
-		//},
-		//startPath: "/site/"
 		server: {
+			baseDir: "./"
+		},
+		startPath: "/site/"
+		/*server: {
 			proxy: "http://localhost/Gulp"
 		},
 		startPath: "./site/"
-		port: 8080
+		port: 8080*/
 	});
 
 	gulp.watch('./sass/**/*.scss', ['sass']), reload;
